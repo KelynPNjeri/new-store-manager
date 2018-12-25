@@ -1,0 +1,22 @@
+.mainNavbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav {
+    background: #000;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px;
+}
+nav a:hover {
+    background: #555;
+}
+
