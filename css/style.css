@@ -2,9 +2,14 @@
 @import 'navbar.css';
 @import 'button.css';
 @import 'media.css';
+@import 'colors.css';
 
+/* :root {
+    --bg-color: #fafafa;
+} */
 body {
     margin: 0;
+    background: var(--bg-color);
     
 }
 header {
