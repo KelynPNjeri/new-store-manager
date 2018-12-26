@@ -1,3 +1,5 @@
+@import 'colors.css';
+
 .btn {
     border: none;
     border-radius: 10px;
@@ -5,7 +7,7 @@
     text-align: center;
 }
 .btn-primary {
-    background: #66bbff;
+    background: var(--btn-primary-color);
     font-weight: bold;
 
 }
