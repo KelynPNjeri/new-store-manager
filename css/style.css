@@ -4,9 +4,6 @@
 @import 'media.css';
 @import 'colors.css';
 
-/* :root {
-    --bg-color: #fafafa;
-} */
 body {
     margin: 0;
     background: var(--bg-color);
