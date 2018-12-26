@@ -9,24 +9,32 @@
 </head>
 <body>
     <section>
-        <form>
+        <form class="register">
             <h3>Join Us.</h3>
             <div class="inputFields">
-                <input type="text" name="username" id="username" placeholder="Username">
+                <label for="username">Username</label>
+                <br>
+                <input type="text" name="username" class="input" id="username" placeholder="Username">
             </div>
             <div class="inputFields">
-                <input type="email" name="email" id="email" placeholder="Email">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" class="input" id="email" placeholder="Email">
             </div>
             <div class="inputFields">
-                <input type="password" name="password" id="pass1" placeholder="Enter Password">
+                <label for="pass1">Password</label>
+                <br>
+                <input type="password" name="password" class="input" id="pass1" placeholder="Enter Password">
             </div>
             <div class="inputFields">
-                <input type="password" name="comfirm-password" id="pass2" placeholder="Confirm Password">
+                <label for="pass2">Confirm Password</label>
+                <br>
+                <input type="password" name="comfirm-password" class="input" id="pass2" placeholder="Confirm Password">
             </div>
             <input type="checkbox" name="terms" id="terms">
             <span>Agree to <a href="#">Terms and Conditions.</a></span>
             <p>Already a Member?<a href="#">Login</a></p>
-            <button type="submit">Register</button>
+            <button type="submit" class="btn btn-primary">Register</button>
         </form>
     </section>
 </body>
