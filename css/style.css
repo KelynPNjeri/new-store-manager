@@ -1,2 +1,7 @@
 @import 'navbar.css';
 @import 'media.css';
+
+ body {
+     margin: 0;
+     padding: 0;
+ }
