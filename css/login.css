@@ -1,1 +1,23 @@
 /* User Registration. */
+.register {
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px;
+}
+.inputFields {
+    margin-bottom: 10px;
+}
+.input {
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 5px 2px;
+}
+.input::placeholder {
+    color: #000;
+}
+.input:focus {
+    outline: none;
+    border: 1px #0070c9 solid;
+}
