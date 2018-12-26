@@ -1,8 +1,9 @@
-.mainNavbar {
-    width: 100%;
-}
 nav {
     background: #000;
+    position: absolute;
+    width: 100%;
+    min-height: 40px;
+
 }
 nav ul {
     list-style-type: none;
@@ -12,9 +13,9 @@ nav a {
     text-decoration: none;
     color: #fff;
     display: block;
-    padding: 15px;
+    padding: 5px 10px;
 }
 nav a:hover {
-    background: #555;
+    text-decoration: underline;
 }
 
