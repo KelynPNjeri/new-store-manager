@@ -1,6 +1,8 @@
+@import 'colors.css';
+
 .brand-name {
     text-align: center;
-    color: #fff;
+    color: var(--text-secondary-color);
     font-size: 1.1rem;
     padding: 5px;
 }
