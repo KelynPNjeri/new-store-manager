@@ -1,7 +1,6 @@
-@import 'navbar.css';
+@import 'login.css';
 @import 'media.css';
 
- body {
-     margin: 0;
-     padding: 0;
- }
+body {
+    margin: 0;
+}
